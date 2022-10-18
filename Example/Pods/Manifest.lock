@@ -1,0 +1,16 @@
+PODS:
+  - ZJExtension (0.1.0)
+
+DEPENDENCIES:
+  - ZJExtension (from `../`)
+
+EXTERNAL SOURCES:
+  ZJExtension:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ZJExtension: f72447ae40bc7991dd7dfe0f25d05fa7277fece3
+
+PODFILE CHECKSUM: de3507315f984a43c8a1240f441776080d744208
+
+COCOAPODS: 1.11.2

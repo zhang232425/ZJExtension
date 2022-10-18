@@ -1,13 +1,12 @@
 use_frameworks!
-
 platform :ios, '10.0'
 
+source 'git@github.com:zhang232425/ZJSpecs.git'
+source 'https://github.com/CocoaPods/Specs.git'
+
 target 'ZJExtension_Example' do
+  
   pod 'ZJExtension', :path => '../'
 
-  target 'ZJExtension_Tests' do
-    inherit! :search_paths
-
-    
-  end
+ 
 end
