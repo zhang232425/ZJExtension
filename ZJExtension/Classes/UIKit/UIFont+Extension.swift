@@ -8,7 +8,7 @@
 import UIKit
 
 // MARK: - Regular
-extension UIFont {
+public extension UIFont {
     
     static var regular5: UIFont { .regular(5.auto) }
     static var regular6: UIFont { .regular(6.auto) }
@@ -40,7 +40,7 @@ extension UIFont {
 }
 
 // MARK: - Medium
-extension UIFont {
+public extension UIFont {
     
     static var medium5: UIFont { .medium(5.auto) }
     static var medium6: UIFont { .medium(6.auto) }
@@ -72,7 +72,7 @@ extension UIFont {
 }
 
 // MARK: - Black
-extension UIFont {
+public extension UIFont {
     
     static var black5: UIFont { .black(5.auto) }
     static var black6: UIFont { .black(6.auto) }
@@ -104,7 +104,7 @@ extension UIFont {
 }
 
 // MARK: - Bold
-extension UIFont {
+public extension UIFont {
     
     static var bold5: UIFont { .bold(5.auto) }
     static var bold6: UIFont { .bold(6.auto) }
