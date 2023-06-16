@@ -2,7 +2,6 @@
   "name": "ZJExtension",
   "version": "0.1.0",
   "summary": "A short description of ZJExtension.",
-  "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/zhang232425/ZJExtension",
   "license": {
     "type": "MIT",
@@ -18,5 +17,18 @@
   "platforms": {
     "ios": "10.0"
   },
-  "source_files": "ZJExtension/Classes/**/*"
+  "source_files": "ZJExtension/Classes/**/*",
+  "resource_bundles": {
+    "ZJExtension": [
+      "ZJExtension/Assets/*.png"
+    ]
+  },
+  "dependencies": {
+    "SDWebImage": [
+
+    ],
+    "CryptoSwift": [
+
+    ]
+  }
 }

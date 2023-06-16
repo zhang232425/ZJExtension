@@ -1,16 +1,29 @@
 PODS:
-  - ZJExtension (0.1.0)
+  - CryptoSwift (1.5.1)
+  - SDWebImage (5.15.5):
+    - SDWebImage/Core (= 5.15.5)
+  - SDWebImage/Core (5.15.5)
+  - ZJExtension (0.1.0):
+    - CryptoSwift
+    - SDWebImage
 
 DEPENDENCIES:
   - ZJExtension (from `../`)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - CryptoSwift
+    - SDWebImage
 
 EXTERNAL SOURCES:
   ZJExtension:
     :path: "../"
 
 SPEC CHECKSUMS:
-  ZJExtension: f72447ae40bc7991dd7dfe0f25d05fa7277fece3
+  CryptoSwift: c4f2debceb38bf44c80659afe009f71e23e4a082
+  SDWebImage: fd7e1a22f00303e058058278639bf6196ee431fe
+  ZJExtension: 696a53ccf69ba7171693e4c370d2672a62a4dfd9
 
-PODFILE CHECKSUM: de3507315f984a43c8a1240f441776080d744208
+PODFILE CHECKSUM: d2bf530afc606d123073fdfc014937830c958361
 
 COCOAPODS: 1.11.2

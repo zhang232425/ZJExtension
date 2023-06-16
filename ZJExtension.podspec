@@ -20,5 +20,8 @@ Pod::Spec.new do |s|
   s.resource_bundles = {
       'ZJExtension' => ['ZJExtension/Assets/*.png']
   }
+  
+  s.dependency 'SDWebImage'
+  s.dependency 'CryptoSwift'
 
 end
