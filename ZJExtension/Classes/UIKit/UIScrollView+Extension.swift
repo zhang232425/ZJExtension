@@ -21,7 +21,7 @@ extension UICollectionViewCell: ReuseableView {}
 
 extension UITableViewHeaderFooterView: ReuseableView {}
 
-extension UITableView {
+public extension UITableView {
     
     func registerCell<T: UITableViewCell>(_ cellClass: T.Type) {
         register(cellClass, forCellReuseIdentifier: T.reuseIdntifier)
@@ -47,7 +47,7 @@ extension UITableView {
 
 }
 
-extension UICollectionView {
+public extension UICollectionView {
     
     func registerCell<T: UICollectionViewCell>(_ cellClass: T.Type) {
         register(cellClass, forCellWithReuseIdentifier: T.reuseIdntifier)
