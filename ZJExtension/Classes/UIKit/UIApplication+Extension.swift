@@ -19,11 +19,11 @@ public extension UIApplication {
         }
     }
     
-    func switchRootViewController(to viewController: UIViewController?, anmated: Bool) {
+    func switchRootViewController(to viewController: UIViewController?, animated: Bool) {
         
         guard let window = delegate?.window as? UIWindow else { return }
         
-        guard anmated else {
+        guard animated else {
             window.rootViewController = viewController
             return
         }
