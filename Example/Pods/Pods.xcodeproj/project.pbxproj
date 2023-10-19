@@ -239,6 +239,7 @@
 		D45B61E7401A315EA1649BC134EE0B6A /* SDImageHEICCoder.m in Sources */ = {isa = PBXBuildFile; fileRef = A1523D973A1748EB3BE7DDC741A79957 /* SDImageHEICCoder.m */; };
 		D5985AAFCE93221CF3F51B30122060D9 /* CryptoSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 09ACB4DCA070F891FDA858B33FF7F52F /* CryptoSwift-dummy.m */; };
 		D5B7896C5A94BEB5A75CC6D6B62889F3 /* SDImageLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = BC0A2CF90E48FB230337C0EDBA2E679E /* SDImageLoader.m */; };
+		D69F258E2AE12FA700FFA4C9 /* UIAlertController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69F258D2AE12FA700FFA4C9 /* UIAlertController+Extension.swift */; };
 		D6E44BA32AC1635E00FE8EC1 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E44BA22AC1635E00FE8EC1 /* String+Extension.swift */; };
 		D728D802DE6A94726C50A38404BC82B4 /* Auto.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF3CC8B04DB90A57DE7EDE8CB370716B /* Auto.swift */; };
 		D7673AD4DD6C4BE256C9AD7D75BDACFE /* UIImageView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = C4F3AE10592CA2513E8A5D725BD2B3AD /* UIImageView+WebCache.m */; };
@@ -577,6 +578,7 @@
 		D03D264629AC55AFEECA8CD19BAC940E /* AES+Foundation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "AES+Foundation.swift"; path = "Sources/CryptoSwift/Foundation/AES+Foundation.swift"; sourceTree = "<group>"; };
 		D24DC384A6D6A011E7EFD33B3C79BF58 /* StreamDecryptor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StreamDecryptor.swift; path = Sources/CryptoSwift/StreamDecryptor.swift; sourceTree = "<group>"; };
 		D43DFA6D7B899D5E43DD5010AEEE6A86 /* String Conversion.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String Conversion.swift"; path = "Sources/CryptoSwift/CS_BigInt/String Conversion.swift"; sourceTree = "<group>"; };
+		D69F258D2AE12FA700FFA4C9 /* UIAlertController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIAlertController+Extension.swift"; sourceTree = "<group>"; };
 		D69FC117C01013BFCBBB156E73384ED2 /* SDWebImageCacheSerializer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageCacheSerializer.h; path = SDWebImage/Core/SDWebImageCacheSerializer.h; sourceTree = "<group>"; };
 		D6D2E196351B31922AF9BCE41AF265B8 /* SDDisplayLink.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDDisplayLink.m; path = SDWebImage/Private/SDDisplayLink.m; sourceTree = "<group>"; };
 		D6E44BA22AC1635E00FE8EC1 /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
@@ -716,6 +718,7 @@
 				1F949C647D7C64F748537FBF308738BE /* UIScreen+Extension.swift */,
 				032170D9E84EDE1AAD0ABE7B8935DE0B /* UIScrollView+Extension.swift */,
 				899FBE768A2C7AC5F3A1661CDA510618 /* UIView+Extension.swift */,
+				D69F258D2AE12FA700FFA4C9 /* UIAlertController+Extension.swift */,
 			);
 			name = UIKit;
 			path = ZJExtension/Classes/UIKit;
@@ -1416,6 +1419,7 @@
 				6EBB4DDAA02C0812C42639C960237524 /* UIColor+Extension.swift in Sources */,
 				C49A2B45983407E68EC4D0EF7FA4C01E /* UIFont+Extension.swift in Sources */,
 				D05C86A6C3BACC167237E7781512B8B5 /* UIImage+Extension.swift in Sources */,
+				D69F258E2AE12FA700FFA4C9 /* UIAlertController+Extension.swift in Sources */,
 				AA8C0495FB711D5D88737AB3F016C26C /* UIImageView+Extension.swift in Sources */,
 				7FFA60909763E4AE31665A1EBB99E80A /* UIScreen+Extension.swift in Sources */,
 				1CDC2432B25AE3563108A8A12D7F743B /* UIScrollView+Extension.swift in Sources */,
