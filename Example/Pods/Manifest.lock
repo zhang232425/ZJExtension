@@ -3,9 +3,11 @@ PODS:
   - SDWebImage (5.15.5):
     - SDWebImage/Core (= 5.15.5)
   - SDWebImage/Core (5.15.5)
+  - SnapKit (5.6.0)
   - ZJExtension (0.1.0):
     - CryptoSwift
     - SDWebImage
+    - SnapKit
 
 DEPENDENCIES:
   - ZJExtension (from `../`)
@@ -14,6 +16,7 @@ SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
     - CryptoSwift
     - SDWebImage
+    - SnapKit
 
 EXTERNAL SOURCES:
   ZJExtension:
@@ -22,7 +25,8 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   CryptoSwift: c4f2debceb38bf44c80659afe009f71e23e4a082
   SDWebImage: fd7e1a22f00303e058058278639bf6196ee431fe
-  ZJExtension: 696a53ccf69ba7171693e4c370d2672a62a4dfd9
+  SnapKit: e01d52ebb8ddbc333eefe2132acf85c8227d9c25
+  ZJExtension: 227faf8dfbd3562eaa7cd9120f41d44bf2b59258
 
 PODFILE CHECKSUM: d2bf530afc606d123073fdfc014937830c958361
 

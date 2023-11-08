@@ -21,6 +21,7 @@ Pod::Spec.new do |s|
       'ZJExtension' => ['ZJExtension/Assets/*.png']
   }
   
+  s.dependency 'SnapKit'
   s.dependency 'SDWebImage'
   s.dependency 'CryptoSwift'
 
