@@ -271,6 +271,7 @@
 		D45B61E7401A315EA1649BC134EE0B6A /* SDImageHEICCoder.m in Sources */ = {isa = PBXBuildFile; fileRef = FE663E3F400E6856A6D50FC70ED534A0 /* SDImageHEICCoder.m */; };
 		D5985AAFCE93221CF3F51B30122060D9 /* CryptoSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BE5CB6E66AD376E0E9ACD1101389B93 /* CryptoSwift-dummy.m */; };
 		D5B7896C5A94BEB5A75CC6D6B62889F3 /* SDImageLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D2C5F9101006B05D72B6C8F577D03E0 /* SDImageLoader.m */; };
+		D6793B242B1083EE008D2CD7 /* Data+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6793B232B1083EE008D2CD7 /* Data+Extension.swift */; };
 		D7673AD4DD6C4BE256C9AD7D75BDACFE /* UIImageView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AB7D661F70191B9559006C2ADD9B281 /* UIImageView+WebCache.m */; };
 		D8935B0465A68A306A4942DEB5B2A0C1 /* SDImageCoderHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 2EBCB56F8E9EA2E61CF1BAD6D75E6F16 /* SDImageCoderHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D90D220832908C56068C2FF8C327757F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CDC6391E3063232D20F2FFE1617B4AA /* Foundation.framework */; };
@@ -394,7 +395,7 @@
 		0BE33C256219EEC6678794715B7A2038 /* SDGraphicsImageRenderer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDGraphicsImageRenderer.h; path = SDWebImage/Core/SDGraphicsImageRenderer.h; sourceTree = "<group>"; };
 		0C3D44E21A339401AD20E381422C10DE /* Auto.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Auto.swift; sourceTree = "<group>"; };
 		0CFF74C8D076827E3761AE88BD17AE0F /* LayoutConstraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutConstraint.swift; path = Sources/LayoutConstraint.swift; sourceTree = "<group>"; };
-		0D99E66B09E5194ACDB1805547453790 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		0D99E66B09E5194ACDB1805547453790 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		0E36E3CF543EA566BFA33B2A50082AE1 /* Pods-ZJExtension_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZJExtension_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		0EB69CE58F232F432598FC261AEDDCB0 /* SDImageCacheDefine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageCacheDefine.h; path = SDWebImage/Core/SDImageCacheDefine.h; sourceTree = "<group>"; };
 		0ED1FF7166F84C3AE42717AFA6AF2095 /* SDImageGIFCoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageGIFCoder.h; path = SDWebImage/Core/SDImageGIFCoder.h; sourceTree = "<group>"; };
@@ -447,7 +448,7 @@
 		35D4E1C134D3E1739318098394FD3442 /* SDImageCoderHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageCoderHelper.m; path = SDWebImage/Core/SDImageCoderHelper.m; sourceTree = "<group>"; };
 		3667512046A19C404973158134D58716 /* UIImageView+HighlightedWebCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+HighlightedWebCache.h"; path = "SDWebImage/Core/UIImageView+HighlightedWebCache.h"; sourceTree = "<group>"; };
 		381FB7A2A35D8C3F562A92BACD0301AB /* ConstraintConstantTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintConstantTarget.swift; path = Sources/ConstraintConstantTarget.swift; sourceTree = "<group>"; };
-		3A751A57847CF966AB42CCA57BE47728 /* ZJExtension.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ZJExtension.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		3A751A57847CF966AB42CCA57BE47728 /* ZJExtension.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = ZJExtension.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		3BD000A84C90F0E560EEEEAE7C883137 /* SDAssociatedObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDAssociatedObject.m; path = SDWebImage/Private/SDAssociatedObject.m; sourceTree = "<group>"; };
 		3BE5CB6E66AD376E0E9ACD1101389B93 /* CryptoSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CryptoSwift-dummy.m"; sourceTree = "<group>"; };
 		3C739667A269C055088C28B8E612C817 /* SDWebImageIndicator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageIndicator.h; path = SDWebImage/Core/SDWebImageIndicator.h; sourceTree = "<group>"; };
@@ -587,7 +588,7 @@
 		9CA618F81707E5F4674DDCD784A0B25E /* SDDiskCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDDiskCache.m; path = SDWebImage/Core/SDDiskCache.m; sourceTree = "<group>"; };
 		9D2C5F9101006B05D72B6C8F577D03E0 /* SDImageLoader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageLoader.m; path = SDWebImage/Core/SDImageLoader.m; sourceTree = "<group>"; };
 		9D35746A0AFB07E3E0008B524BE3287A /* String+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+Extension.swift"; path = "Sources/CryptoSwift/String+Extension.swift"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9E15C07F483EF51448599CB29491A7B2 /* BigInt.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BigInt.swift; path = Sources/CryptoSwift/CS_BigInt/BigInt.swift; sourceTree = "<group>"; };
 		9EC27BE35DFF2859638C0B8C1FE771A0 /* PKCS7.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PKCS7.swift; path = Sources/CryptoSwift/PKCS/PKCS7.swift; sourceTree = "<group>"; };
 		A14EC6702A3B36C8E53564B98C4804A3 /* SnapKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SnapKit-Info.plist"; sourceTree = "<group>"; };
@@ -672,6 +673,7 @@
 		D495731E330591A13EFB4B11AB651837 /* SDWebImage.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SDWebImage.debug.xcconfig; sourceTree = "<group>"; };
 		D4AFF6A2F249240E213875078CA6AAE2 /* ResourceBundle-ZJExtension-ZJExtension-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-ZJExtension-ZJExtension-Info.plist"; sourceTree = "<group>"; };
 		D57AC8409DD01CDAF61BDABDBDD7E991 /* CryptoSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CryptoSwift-umbrella.h"; sourceTree = "<group>"; };
+		D6793B232B1083EE008D2CD7 /* Data+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Data+Extension.swift"; sourceTree = "<group>"; };
 		D7385A54018899B62100A622F94DB6E1 /* UIImage+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
 		D760E2649424BCEAF109297DFDBBAC45 /* Blowfish.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Blowfish.swift; path = Sources/CryptoSwift/Blowfish.swift; sourceTree = "<group>"; };
 		D7FC9F452AFC7C54D66E676325272AD9 /* UIView+WebCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+WebCache.m"; path = "SDWebImage/Core/UIView+WebCache.m"; sourceTree = "<group>"; };
@@ -710,7 +712,7 @@
 		F6333F165E4C179D0DE29CF8A352A242 /* SDCallbackQueue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDCallbackQueue.m; path = SDWebImage/Core/SDCallbackQueue.m; sourceTree = "<group>"; };
 		F7BF7D95C920B16FDF13B334EAAD3569 /* SDAnimatedImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDAnimatedImage.h; path = SDWebImage/Core/SDAnimatedImage.h; sourceTree = "<group>"; };
 		F81274EDB681F11E7CB05F7DCA2BB33C /* CryptoSwift */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CryptoSwift; path = CryptoSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F86C39288F146F2346BEE9D9B91AE7C5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		F86C39288F146F2346BEE9D9B91AE7C5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		F96511BCE8C0A7950CE0F01E9AD86FD4 /* UIColor+SDHexString.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+SDHexString.h"; path = "SDWebImage/Private/UIColor+SDHexString.h"; sourceTree = "<group>"; };
 		FA9C75695C9BE677D0DEC9C888FDEEC5 /* SDmetamacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDmetamacros.h; path = SDWebImage/Private/SDmetamacros.h; sourceTree = "<group>"; };
 		FB8599111DBA643DDEB6244F83893142 /* ZJExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZJExtension.release.xcconfig; sourceTree = "<group>"; };
@@ -1012,6 +1014,7 @@
 				0C3D44E21A339401AD20E381422C10DE /* Auto.swift */,
 				9201D6585AFA85D0D4B2D3C77634844B /* AutoLayout+Extension.swift */,
 				8EABF41388870ADE639301C72E1C2735 /* String+Extension.swift */,
+				D6793B232B1083EE008D2CD7 /* Data+Extension.swift */,
 			);
 			name = Foundation;
 			path = ZJExtension/Classes/Foundation;
@@ -1107,7 +1110,6 @@
 				AB3CCD7E6E5D11B6C909AE33933F3FB6 /* UILayoutSupport+Extensions.swift */,
 				2CEF07852752D3C1516DFBC7841C597D /* Support Files */,
 			);
-			name = SnapKit;
 			path = SnapKit;
 			sourceTree = "<group>";
 		};
@@ -1159,7 +1161,6 @@
 				0FC5998D1E2E3D0D9DCE86854C971D96 /* Core */,
 				062D35D9583B94E1778A56DADAAD357A /* Support Files */,
 			);
-			name = SDWebImage;
 			path = SDWebImage;
 			sourceTree = "<group>";
 		};
@@ -1269,7 +1270,6 @@
 				721F9CCAE01F8B5D34B188E227F37652 /* ZeroPadding.swift */,
 				ABB31FC98A05D3A72C55B14C4C8C2FDD /* Support Files */,
 			);
-			name = CryptoSwift;
 			path = CryptoSwift;
 			sourceTree = "<group>";
 		};
@@ -1850,6 +1850,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0AD3B36077DC17EE25375ED99AC80DBC /* Auto.swift in Sources */,
+				D6793B242B1083EE008D2CD7 /* Data+Extension.swift in Sources */,
 				FBA95339BD128F9558EFDBD70E8099CE /* AutoLayout+Extension.swift in Sources */,
 				8F5CF0E2B0C475B7B2953EBAF6B85661 /* String+Extension.swift in Sources */,
 				D1CF5302F90EF20A207B26B14B81ED76 /* UIAlertController+Extension.swift in Sources */,
@@ -2173,8 +2174,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
